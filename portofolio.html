@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Register System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Login strana -->
+        <div id="login-page" class="page">
+
+            <label id="labellogin">
+                Prijava
+            </label>
+            <div id="backgroundcolor">
+
+            </div>
+         <img src="360_F_530616804_2PW4hPk3Am2zlyojZWh5a7jmykZ6VrI9-removebg-preview.png" id="image-start1">
+            <div id="justd">
+
+            </div>
+            <form id="login-form">
+                <input type="email" id="login-email" placeholder="Email" required>
+                <input type="password" placeholder="Password" id="login-password" required>
+                <button type="submit"id="loglabel">Prijava</button>
+            </form>
+            <p id="register-link"  class="hidden">Nemate racun? <a href="#" id="go-to-register">Registrujte se</a></p>
+            <label id="rights">Ⓒ   2025 Speakly</label>
+        </div>
+
+        <!-- Register strana -->
+        <div id="register-page" class="page hidden">
+            <div id="backgroundcolor">
+
+            </div>
+            <img src="360_F_530616804_2PW4hPk3Am2zlyojZWh5a7jmykZ6VrI9-removebg-preview.png" id="image-start1">
+            <div id="okvir">
+
+            </div>
+            <label id="rights">Ⓒ   2025 Speakly</label>
+       <label id="regid">Registracija</label>
+       <form id="register-form" action="/register" method="POST">
+        <input type="email" id="register-email" placeholder="Email" name="register-email" required>
+        <input type="password" id="register-password" placeholder="Password" name="register-password" required>
+        <button type="submit" id="enter">Registracija</button>
+    </form>
+    
+        </div>
+
+  
+
+
+        <!-- Glavna strana -->
+        <div id="dashboard-page" class="page hidden">
+            <label id="main1">
+                SPEAKLY
+            </label>
+            <img src="online-removebg-preview (1).png" id="imgon">
+        
+            <img src="3537985-200.png" id="lines-more">
+            <div id="moreinfo">
+                <button id="logout-btn">Odjavi se</button>
+                <div id="onlyaline">
+
+                </div>
+            </div>
+            <div id="vrh">
+
+            </div>
+                        
+<label id="option">CIJENE</label>
+<label id="option1">PROFESORI</label>
+<label id="option2">KONTAKTIRAJTE NAS</label>
+
+    <div id="down_line">
+
+    </div>
+    <div id="down_line1">
+
+    </div>
+    <div id="down_line2">
+
+    </div>
+<img src="best_crop_157a62c5c960be9ce43d_6d687bf0-cd02-43d8-938a-c27430ad898d.jpg" id="bimage">
+        <label id="rights">Ⓒ   2025 Speakly</label>
+        <div id="pricesshow">
+        <label id="pricestitle">Cijene</label>
+        <label id="price0">
+            20-25€/mjesec
+        </label>
+        <div id="phoneinfo">
+
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

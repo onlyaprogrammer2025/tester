@@ -1,0 +1,329 @@
+body{
+    background-color: #392746;
+}
+.page {
+    display: none; /* Sve stranice su podrazumevano skrivene */
+}
+
+.page.hidden {
+    display: none; /* Dodatna klasa za skrivanje stranica */
+}
+
+.page:not(.hidden) {
+    display: block; /* Prikazuje trenutnu stranicu koja nije sakrivena */
+}
+#labellogin{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    margin-top: 80px;
+    margin-left: 550px;
+    z-index: 321;
+}
+#login-email{
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 290px;
+    font-size: 20px;
+    width: 700px;
+    height: 40px;
+    border: 2px solid black;
+}
+#login-password{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 290px;
+    font-size: 20px;
+    width: 700px;
+    height: 40px;
+    border: 2px solid black;
+}
+#loglabel{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 290px;
+    font-size: 29px;
+    font-weight: bolder;
+    width: 700px;
+    height: 50px;
+    background-color: rgb(43, 43, 223);
+    color: white;
+    border: 1px solid white;
+}
+#loglabel:hover{
+    background-color: blue;
+}
+#register-link{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 520px;
+    font-size: 15px;
+}
+#justd{
+    position: absolute;
+    width: 750px;
+    height: 569px;
+    border: 1px solid black;
+    margin-left: 270px;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.801);
+    border-radius: 30px;
+    background-color: white;
+    opacity: 0.3;
+    margin-top: 50px;
+}
+#regid{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    margin-top: 80px;
+    margin-left: 530px;
+}
+#register-email{
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 290px;
+    font-size: 20px;
+    width: 700px;
+    height: 40px;
+    border: 2px solid black;
+}
+#register-password{
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 290px;
+    font-size: 20px;
+    width: 700px;
+    height: 40px;
+    border: 2px solid black;
+}
+#enter{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 290px;
+    font-size: 29px;
+    font-weight: bolder;
+    width: 700px;
+    height: 50px;
+    background-color: rgb(43, 43, 223);
+    color: white;
+    border: 1px solid white;
+}
+#enter:hover{
+    background-color: blue;
+}
+#okvir{
+    position: absolute;
+    width: 750px;
+    height: 569px;
+    border: 1px solid black;
+    margin-left: 270px;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.801);
+    border-radius: 30px;
+    background-color: white;
+    opacity: 0.3;
+    margin-top: 50px;
+}
+#logout-btn{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    background-color: red;
+    font-weight: bolder;
+    color: white;
+    font-size: 15px;
+    margin-left: 55px;
+    margin-top: 275px;
+}
+#log.out{
+    position: absolute;
+    width: 1250px;
+    height: 80px;
+}
+#imgon{
+    position: fixed;
+    width: 82px;
+    height: 80px;
+}
+#main1{
+    position: fixed;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: cursive;
+    margin-top: 15px;
+    margin-left: 70px;
+    color: black;
+}
+#backgroundcolor{
+    position: absolute;
+    width: 1270px;
+    height: 665px;
+    background: linear-gradient(blue, violet);
+}
+#image-start1{
+    position: absolute;
+    width: 1265px;
+    height: 600px;
+    opacity: 0.5;
+    animation: fadeInOut 15s infinite;
+}
+@keyframes fadeInOut {
+    0%, 100% {
+      opacity: 1; /* Potpuno vidljivo */
+    }
+    50% {
+      opacity: 0; /* Potpuno prozirno */
+    }
+}
+#lines-more{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 1200px;
+}
+#moreinfo{
+    position: fixed;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(82, 80, 80);
+    margin-left: 1000px;
+    margin-top: 50px;
+    display: none;
+}
+#onlyaline{
+    position: absolute;
+    width: 185px;
+    height: 2px;
+    background-color: black;
+    margin-top: 267px;
+    margin-left: 10px;
+}
+#vrh{
+    position: fixed;
+    width: 1260px;
+    height: 150px;
+    background: linear-gradient(blue, rgb(161, 23, 161), white);
+    z-index: -200;
+}
+#bimage{
+    position: absolute;
+    width: 1245px;
+    height: 800px;
+    margin-top: 160px;
+    z-index: -123456;
+}
+#rights{
+    position: absolute;
+    margin-top: 1200px;
+    font-size: 25px;
+    color: white;
+    margin-left: 550px;
+}
+#option{
+    position: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: 120px;
+    margin-left: 50px;
+}
+#option1{
+    position: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: 120px;
+    margin-left: 180px;
+}
+#option2{
+    position: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-top: 120px;
+    margin-left: 350px;
+}
+#down_line{
+    position: fixed;
+    width: 58px;
+    height: 5px;
+    background-color: black;
+    margin-top: 139px;
+    margin-left: 50px;
+    opacity: -100;
+}
+#down_line:hover{
+    opacity: 100;
+}
+#down_line1{
+    position: fixed;
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    margin-top: 139px;
+    margin-left: 180px;
+    opacity: -100;
+}
+#down_line1:hover{
+    opacity: 100;
+}
+#down_line2{
+    position: fixed;
+    width: 155px;
+    height: 5px;
+    background-color: black;
+    margin-top: 139px;
+    margin-left: 350px;
+    opacity: -100;
+}
+#down_line2:hover{
+    opacity: 100;
+}
+#pricesshow{
+    position: fixed;
+    width: 210px;
+    height: 110px;
+    background: linear-gradient(violet, black);
+    z-index: -100;
+    margin-top: 145px;
+    margin-left: 100px;
+    border-radius: 0px 30px 30px 30px;
+    display: none;
+}
+#pricestitle{
+    position: fixed;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 39px;
+    margin-top: 15px;
+}
+#price0{
+    position: fixed;
+    color: white;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 39px;
+    margin-top: 65px;
+    animation: fadeInOut 3s infinite;
+}
+@keyframes fadeInOut {
+    0%, 100% {
+      opacity: 1; 
+    }
+    50% {
+      opacity: 0.5; 
+    }
+}
+#go-to-register{
+    position: absolute;
+    margin-left: 0px;
+}
+#register-link{
+    position: absolute;
+    margin-left: 530px;
+}
