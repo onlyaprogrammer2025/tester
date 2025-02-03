@@ -1,329 +1,176 @@
-body{
-    background-color: #392746;
-}
-.page {
-    display: none; /* Sve stranice su podrazumevano skrivene */
-}
-
-.page.hidden {
-    display: none; /* Dodatna klasa za skrivanje stranica */
+body {
+    position: relative;
+    background: url('mannn.jpg') no-repeat center center/cover;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
 }
 
-.page:not(.hidden) {
-    display: block; /* Prikazuje trenutnu stranicu koja nije sakrivena */
-}
-#labellogin{
+body::before {
+    content: "";
     position: absolute;
-    font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bolder;
-    margin-top: 80px;
-    margin-left: 550px;
-    z-index: 321;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    z-index: -1;
 }
-#login-email{
-    position: absolute;
-    margin-top: 210px;
-    margin-left: 290px;
-    font-size: 20px;
-    width: 700px;
-    height: 40px;
-    border: 2px solid black;
-}
-#login-password{
-    position: absolute;
-    margin-top: 310px;
-    margin-left: 290px;
-    font-size: 20px;
-    width: 700px;
-    height: 40px;
-    border: 2px solid black;
-}
-#loglabel{
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 290px;
-    font-size: 29px;
-    font-weight: bolder;
-    width: 700px;
-    height: 50px;
-    background-color: rgb(43, 43, 223);
-    color: white;
-    border: 1px solid white;
-}
-#loglabel:hover{
-    background-color: blue;
-}
-#register-link{
-    position: absolute;
-    margin-top: 500px;
-    margin-left: 520px;
-    font-size: 15px;
-}
-#justd{
-    position: absolute;
-    width: 750px;
-    height: 569px;
-    border: 1px solid black;
-    margin-left: 270px;
-    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.801);
-    border-radius: 30px;
-    background-color: white;
-    opacity: 0.3;
-    margin-top: 50px;
-}
-#regid{
-    position: absolute;
-    font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bolder;
-    margin-top: 80px;
-    margin-left: 530px;
-}
-#register-email{
-    position: absolute;
-    margin-top: 210px;
-    margin-left: 290px;
-    font-size: 20px;
-    width: 700px;
-    height: 40px;
-    border: 2px solid black;
-}
-#register-password{
-    position: absolute;
-    margin-top: 310px;
-    margin-left: 290px;
-    font-size: 20px;
-    width: 700px;
-    height: 40px;
-    border: 2px solid black;
-}
-#enter{
-    position: absolute;
-    margin-top: 400px;
-    margin-left: 290px;
-    font-size: 29px;
-    font-weight: bolder;
-    width: 700px;
-    height: 50px;
-    background-color: rgb(43, 43, 223);
-    color: white;
-    border: 1px solid white;
-}
-#enter:hover{
-    background-color: blue;
-}
-#okvir{
-    position: absolute;
-    width: 750px;
-    height: 569px;
-    border: 1px solid black;
-    margin-left: 270px;
-    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.801);
-    border-radius: 30px;
-    background-color: white;
-    opacity: 0.3;
-    margin-top: 50px;
-}
-#logout-btn{
-    position: absolute;
-    width: 100px;
-    height: 20px;
-    border: 1px solid black;
-    background-color: red;
-    font-weight: bolder;
-    color: white;
-    font-size: 15px;
-    margin-left: 55px;
-    margin-top: 275px;
-}
-#log.out{
-    position: absolute;
-    width: 1250px;
-    height: 80px;
-}
-#imgon{
+#mainstart{
     position: fixed;
-    width: 82px;
-    height: 80px;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    z-index: 1;
+    overflow-y: hidden; 
+    overflow-x: auto; 
+    display: flex;
+    gap: 10px;
 }
-#main1{
-    position: fixed;
-    font-weight: bolder;
-    font-size: 25px;
-    font-family: cursive;
-    margin-top: 15px;
-    margin-left: 70px;
+#pocetna{
+    position: absolute;
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 950px;
+    transition: transform 0.4s ease-in-out;
 }
-#backgroundcolor{
+#pocetna:hover{
+    transform: scale(1.2);
+}
+#onama{
     position: absolute;
-    width: 1270px;
-    height: 665px;
-    background: linear-gradient(blue, violet);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 1100px;
+    transition: transform 0.4s ease-in-out;
 }
-#image-start1{
+#onama:hover{
+    transform: scale(1.2);
+}
+#title{
     position: absolute;
-    width: 1265px;
-    height: 600px;
-    opacity: 0.5;
-    animation: fadeInOut 15s infinite;
+    font-size: 25px;
+    color: black;
+    font-family: cursive;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 5px;
+    display: none;
 }
-@keyframes fadeInOut {
-    0%, 100% {
-      opacity: 1; /* Potpuno vidljivo */
-    }
-    50% {
-      opacity: 0; /* Potpuno prozirno */
-    }
+#welcome{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 100px;
+    margin-top: 120px;
+    margin-left: 350px;
+    letter-spacing: 10px;
 }
-#lines-more{
-    position: fixed;
-    width: 30px;
-    height: 30px;
-    margin-top: 20px;
-    margin-left: 1200px;
-}
-#moreinfo{
-    position: fixed;
+#startbtn{
+    position: absolute;
     width: 200px;
-    height: 300px;
-    background-color: rgb(82, 80, 80);
-    margin-left: 1000px;
-    margin-top: 50px;
-    display: none;
-}
-#onlyaline{
-    position: absolute;
-    width: 185px;
-    height: 2px;
-    background-color: black;
-    margin-top: 267px;
-    margin-left: 10px;
-}
-#vrh{
-    position: fixed;
-    width: 1260px;
-    height: 150px;
-    background: linear-gradient(blue, rgb(161, 23, 161), white);
-    z-index: -200;
-}
-#bimage{
-    position: absolute;
-    width: 1245px;
-    height: 800px;
-    margin-top: 160px;
-    z-index: -123456;
-}
-#rights{
-    position: absolute;
-    margin-top: 1200px;
-    font-size: 25px;
+    border: none;
+    height: 40px;
     color: white;
-    margin-left: 550px;
-}
-#option{
-    position: fixed;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 17px;
+    background-color: brown;
+    font-size: 15px;
+    font-family: monospace;
     font-weight: bolder;
-    margin-top: 120px;
-    margin-left: 50px;
+    margin-top: 580px;
+    margin-left: 300px;
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s;
 }
-#option1{
-    position: fixed;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 17px;
-    font-weight: bolder;
-    margin-top: 120px;
-    margin-left: 180px;
+#startbtn:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 7px 7px lightskyblue;
 }
-#option2{
-    position: fixed;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 17px;
-    font-weight: bolder;
-    margin-top: 120px;
-    margin-left: 350px;
+#kratkiopis{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    margin-top: 300px;
+    margin-left: 300px;
+    line-height: 40px;
 }
-#down_line{
-    position: fixed;
-    width: 58px;
-    height: 5px;
-    background-color: black;
-    margin-top: 139px;
-    margin-left: 50px;
-    opacity: -100;
-}
-#down_line:hover{
-    opacity: 100;
-}
-#down_line1{
-    position: fixed;
-    width: 100px;
-    height: 5px;
-    background-color: black;
-    margin-top: 139px;
-    margin-left: 180px;
-    opacity: -100;
-}
-#down_line1:hover{
-    opacity: 100;
-}
-#down_line2{
-    position: fixed;
-    width: 155px;
-    height: 5px;
-    background-color: black;
-    margin-top: 139px;
-    margin-left: 350px;
-    opacity: -100;
-}
-#down_line2:hover{
-    opacity: 100;
-}
-#pricesshow{
-    position: fixed;
-    width: 210px;
+#titleimage{
+    position: absolute;
+    width: 110px;
     height: 110px;
-    background: linear-gradient(violet, black);
-    z-index: -100;
-    margin-top: 145px;
-    margin-left: 100px;
-    border-radius: 0px 30px 30px 30px;
-    display: none;
+    margin-left: 10px;
+    margin-top: -12;
 }
-#pricestitle{
-    position: fixed;
-    font-size: 25px;
+a{
     color: white;
-    font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 39px;
-    margin-top: 15px;
+    text-decoration: none;
 }
-#price0{
-    position: fixed;
-    color: white;
-    font-weight: bolder;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 39px;
-    margin-top: 65px;
-    animation: fadeInOut 3s infinite;
-}
-@keyframes fadeInOut {
-    0%, 100% {
-      opacity: 1; 
+
+
+
+@media screen and (max-width: 768px) {
+    #mainstart {
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
-    50% {
-      opacity: 0.5; 
+
+    #pocetna {
+        position: absolute;
+        font-size: 18px;
+        margin-top: -5px;
+        margin-left: 80px;
     }
-}
-#go-to-register{
-    position: absolute;
-    margin-left: 0px;
-}
-#register-link{
-    position: absolute;
-    margin-left: 530px;
+
+    #onama {
+        position: absolute;
+        font-size: 18px;
+        margin-top: -5px;
+        margin-left: 250px;
+    }
+
+    #titleimage {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        margin-left: -300px;
+        margin-top: 2px;
+    }
+
+    #welcome {
+        position: absolute;
+        font-size: 33px;
+        margin-top: 130px;
+        margin-left: 30px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: bolder;
+    }
+
+    #kratkiopis {
+        position: absolute;
+        font-size: 16px;
+        margin-top: 220px;
+        margin-left: 70px;
+        line-height: 30px;
+    }
+
+    #startbtn {
+        position: absolute;
+        margin-top: 575px;
+        margin-left: 110px;
+        font-size: 14px;
+        width: 170px;
+        height: 30px;
+        color: wheat;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 }
