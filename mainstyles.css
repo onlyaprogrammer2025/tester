@@ -1,0 +1,895 @@
+body {
+    position: relative;
+    background: url('mannn.jpg') no-repeat center center/cover;
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: rgb(46, 44, 44);
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    z-index: -1;
+}
+/* Sakrivanje scrollbar-a */
+#mainheader::-webkit-scrollbar {
+    display: none;
+}
+
+/* Stilizacija dugmadi */
+button {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+
+/* K a t e g o r i j e*/
+#kategorija1{
+    position: absolute;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 240px;
+    margin-left: 100px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija1:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija2{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 280px;
+    margin-left: 100px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija2:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija3{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 320px;
+    margin-left: 100px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija3:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija4{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 360px;
+    margin-left: 100px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija4:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija5{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 400px;
+    margin-left: 100px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija5:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija6{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 440px;
+    margin-left: 100px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija6:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija7{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 240px;
+    margin-left: 380px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija7:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija8{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 280px;
+    margin-left: 380px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija8:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija9{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 320px;
+    margin-left: 380px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija9:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija10{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 360px;
+    margin-left: 380px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija10:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija11{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 360px;
+    margin-left: 380px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija11:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija12{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 400px;
+    margin-left: 380px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija12:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija13{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 440px;
+    margin-left: 380px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija13:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija14{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 240px;
+    margin-left: 620px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija14:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija15{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 280px;
+    margin-left: 620px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija15:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija16{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 320px;
+    margin-left: 620px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija16:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija17{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 360px;
+    margin-left: 620px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija17:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija18{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 400px;
+    margin-left: 620px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija18:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija18{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 400px;
+    margin-left: 620px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija18:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija19{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 440px;
+    margin-left: 620px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija19:hover{
+    transform: scale(1.1);
+    color: white;
+}
+#kategorija20{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 240px;
+    margin-left: 830px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija20:hover{
+    transform: scale(1.1);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#search {
+    position: absolute;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 300px;
+    height: 50px;
+    background-color: transparent; 
+    color: white;
+    outline: none;
+    font-size: 25px;
+    margin-left: 510px;
+    margin-top: 70px;
+}
+#searchbtn{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    margin-top: 80px;
+    margin-left: 780px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+#searchbtn:hover{
+    transform: scale(1.1);
+}
+#hotels{
+    position: absolute;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 800px;
+    margin-left: 100px;
+}
+#hotelswin{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    border-radius: 30px;
+}
+#hotelsponude{
+    position: absolute;
+    width: 100%;
+    height: 703px;
+    margin-top: 881px;
+    left: 0;
+    border-radius: 30px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid white;
+}
+#hotel1{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 2;
+}
+#hotel2{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 450px;
+    z-index: 2;
+}
+#hotel3{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 890px;
+    z-index: 2;
+}
+
+#hotel4{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 620px;
+    margin-left: 20px;
+    z-index: 2;
+}
+#hotel5{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 620px;
+    margin-left: 450px;
+    z-index: 2;
+}
+#hotel6{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 620px;
+    margin-left: 890px;
+    z-index: 2;
+}
+
+
+#hotelphoto1{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    margin-top: 880px;
+    left: 0;
+    z-index: 1;
+}
+#hotelphoto2{
+ display: none;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        position: relative;
+        background: url('hand.jpg') no-repeat center center/cover;
+        height: 100vh;
+        margin: 0;
+        overflow-x: hidden;
+        background-color: rgb(46, 44, 44);
+    }
+    #hotelphoto1{
+    display: none;
+    }
+    #hotelsponude{
+        position: absolute;
+        width: 100%;
+        height: 703px;
+        margin-top: 881px;
+        left: 0;
+        border-radius: 30px;
+        overflow-y: auto;
+        background-color: white;
+        border: 1px solid white;
+    }
+    #hotelphoto2{
+        position: absolute;
+        width: 100%;
+        height: 700px;
+        margin-top: 880px;
+        left: 0;
+        z-index: 1;
+        display: block;
+    }
+           
+
+#search {
+    position: absolute;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 200px;
+    height: 50px;
+    background-color: transparent; 
+    color: white;
+    outline: none;
+    font-size: 25px;
+    margin-left: 75px;
+    margin-top: 70px;
+}
+#searchbtn{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    margin-top: 80px;
+    margin-left: 225px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+#searchbtn:hover{
+    transform: scale(1.1);
+}
+}
+#kategorija1{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 150px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija2{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 170px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija3{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 190px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija4{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 210px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija5{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 230px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija6{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 250px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija7{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 270px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija8{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 290px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija9{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 310px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija11{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 330px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija12{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 350px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija12{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 350px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija13{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 370px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija14{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 390px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija15{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 410px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija16{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 430px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija17{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 450px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija18{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 470px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija19{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 490px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#kategorija20{
+    position: absolute;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.692);
+    margin-top: 510px;
+    margin-left: 95px;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+#hotel1{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 35px;
+    z-index: 2;
+}
+#hotel2{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 500px;
+    margin-left: 35px;
+    z-index: 2;
+}
+#hotel3{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 980px;
+    margin-left: 35px;
+    z-index: 2;
+}
+
+#hotel4{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 1460px;
+    margin-left: 35px;
+    z-index: 2;
+}
+#hotel5{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 1940px;
+    margin-left: 35px;
+    z-index: 2;
+}
+#hotel6{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 2500px;
+    margin-left: 35px;
+    z-index: 2;
+}
+#hotels{
+    position: absolute;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 780px;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#dot1{
+    position: absolute;
+    margin-top: 100000px;
+}
+
+
+
