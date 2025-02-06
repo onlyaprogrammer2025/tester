@@ -103,11 +103,47 @@ body::before {
     width: 110px;
     height: 110px;
     margin-left: 10px;
-    margin-top: -12;
+    margin-top: -19;
 }
 a{
     color: white;
     text-decoration: none;
+}
+#fbcontact{
+    position: absolute;
+    width: 55px;
+    height: 40px;
+    margin-top: 580px;
+    margin-left: 600px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50%;
+}
+#fbcontact:hover{
+    transform: scale(1.1);
+}
+#instacontact{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 580px;
+    margin-left: 660px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50%;
+}
+#instacontact:hover{
+    transform: scale(1.1);
+}
+#tiktokcontact{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-top: 580px;
+    margin-left: 720px;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50%;
+}
+#tiktokcontact:hover{
+    transform: scale(1.1);
 }
 
 
@@ -180,4 +216,41 @@ a{
         color: wheat;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+    #fbcontact{
+        position: absolute;
+        width: 55px;
+        height: 40px;
+        margin-top: 620px;
+        margin-left: 90px;
+        transition: transform 0.3s ease-in-out;
+        border-radius: 50%;
+    }
+    #fbcontact:hover{
+        transform: scale(1.1);
+    }
+    #instacontact{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin-top: 620px;
+        margin-left: 160px;
+        transition: transform 0.3s ease-in-out;
+        border-radius: 50%;
+    }
+    #instacontact:hover{
+        transform: scale(1.1);
+    }
+    #tiktokcontact{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        margin-top: 620px;
+        margin-left: 230px;
+        transition: transform 0.3s ease-in-out;
+        border-radius: 50%;
+    }
+    #tiktokcontact:hover{
+        transform: scale(1.1);
+    }
+    
 }
