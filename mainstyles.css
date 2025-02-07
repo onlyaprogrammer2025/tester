@@ -31,6 +31,7 @@ body::before {
     margin-left: 100px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija1:hover{
     transform: scale(1.1);
@@ -46,6 +47,7 @@ body::before {
     margin-left: 100px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija2:hover{
     transform: scale(1.1);
@@ -61,6 +63,7 @@ body::before {
     margin-left: 100px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija3:hover{
     transform: scale(1.1);
@@ -76,6 +79,7 @@ body::before {
     margin-left: 100px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija4:hover{
     transform: scale(1.1);
@@ -91,6 +95,7 @@ body::before {
     margin-left: 100px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija5:hover{
     transform: scale(1.1);
@@ -106,6 +111,7 @@ body::before {
     margin-left: 100px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija6:hover{
     transform: scale(1.1);
@@ -121,6 +127,7 @@ body::before {
     margin-left: 380px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija7:hover{
     transform: scale(1.1);
@@ -136,6 +143,7 @@ body::before {
     margin-left: 380px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija8:hover{
     transform: scale(1.1);
@@ -151,6 +159,7 @@ body::before {
     margin-left: 380px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija9:hover{
     transform: scale(1.1);
@@ -166,6 +175,7 @@ body::before {
     margin-left: 380px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija10:hover{
     transform: scale(1.1);
@@ -181,6 +191,7 @@ body::before {
     margin-left: 380px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija11:hover{
     transform: scale(1.1);
@@ -196,6 +207,7 @@ body::before {
     margin-left: 380px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija12:hover{
     transform: scale(1.1);
@@ -211,6 +223,7 @@ body::before {
     margin-left: 380px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija13:hover{
     transform: scale(1.1);
@@ -226,6 +239,7 @@ body::before {
     margin-left: 620px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija14:hover{
     transform: scale(1.1);
@@ -241,6 +255,7 @@ body::before {
     margin-left: 620px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija15:hover{
     transform: scale(1.1);
@@ -256,6 +271,7 @@ body::before {
     margin-left: 620px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija16:hover{
     transform: scale(1.1);
@@ -271,6 +287,7 @@ body::before {
     margin-left: 620px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija17:hover{
     transform: scale(1.1);
@@ -286,26 +303,13 @@ body::before {
     margin-left: 620px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija18:hover{
     transform: scale(1.1);
     color: white;
 }
-#kategorija18{
-    position: absolute;
-    font-size: 20px;
-    font-weight: bolder;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgba(255, 255, 255, 0.692);
-    margin-top: 400px;
-    margin-left: 620px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
-}
-#kategorija18:hover{
-    transform: scale(1.1);
-    color: white;
-}
+
 #kategorija19{
     position: absolute;
     font-size: 20px;
@@ -316,6 +320,7 @@ body::before {
     margin-left: 620px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija19:hover{
     transform: scale(1.1);
@@ -331,6 +336,7 @@ body::before {
     margin-left: 830px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
+    display: grid;
 }
 #kategorija20:hover{
     transform: scale(1.1);
@@ -482,9 +488,21 @@ body::before {
 #hotelphoto2{
  display: none;
 }
+#dot1{
+    position: absolute;
+    margin-top: 100000px;
+}
 
 
-@media (max-width: 600px) {
+
+
+
+
+
+
+
+
+@media (max-width: 768px) and (max-width: 1024px) {
     body {
         position: relative;
         background: url('hand.jpg') no-repeat center center/cover;
@@ -500,7 +518,7 @@ body::before {
         position: absolute;
         width: 100%;
         height: 703px;
-        margin-top: 781px;
+        margin-top: 756px;
         left: 0;
         border-radius: 30px;
         overflow-y: auto;
@@ -511,7 +529,7 @@ body::before {
         position: absolute;
         width: 100%;
         height: 700px;
-        margin-top: 730px;
+        margin-top: 705px;
         left: 0;
         z-index: 1;
         display: block;
@@ -545,224 +563,103 @@ body::before {
 }
 }
 #kategorija1{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 150px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija2{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 170px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija3{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 190px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija4{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 210px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija5{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 230px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija6{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 250px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija7{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 270px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija8{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 290px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija9{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 310px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija11{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 330px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija12{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 350px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija12{
-    position: absolute;
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
+    font-size: 15px;;
     margin-top: 350px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija13{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 370px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija14{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 390px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija15{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 410px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija16{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 430px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
-#kategorija17{
-    position: absolute;
-    font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
+#kategorija17{font-size: 15px;
     margin-top: 450px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija18{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 470px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija19{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 490px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #kategorija20{
-    position: absolute;
     font-size: 15px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    color: rgba(255, 255, 255, 0.692);
     margin-top: 510px;
     margin-left: 95px;
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
 }
 #hotel1{
     position: absolute;
@@ -831,23 +728,7 @@ body::before {
     font-weight: bolder;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 320px;
-    margin-left: 115px;
+    margin-top: 670px;
+    margin-left: 10px;
+    z-index: 3;
 }
-
-
-
-
-
-
-
-
-
-
-#dot1{
-    position: absolute;
-    margin-top: 100000px;
-}
-
-
-
