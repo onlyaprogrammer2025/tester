@@ -1210,12 +1210,13 @@ body::before {
     display: none;
 }
 #title1{
-    position: fixed;
+    position: absolute;
     color: white;
-    font-size: 35px;
+    font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 30px;
-    margin-top: 190px;
+    margin-left: 15px;
+    margin-top: 120px;
     z-index: 10000000000;
+    font-weight: bolder;
 }
 }
