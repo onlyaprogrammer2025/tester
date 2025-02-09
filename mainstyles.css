@@ -191,7 +191,6 @@ body::before {
     margin-left: 380px;
     transition: transform 0.3s ease-in-out;
     cursor: pointer;
-    display: grid;
 }
 #kategorija11:hover{
     transform: scale(1.1);
@@ -343,23 +342,94 @@ body::before {
     color: white;
 }
 
+#kategorija123{
+    position: absolute;
+    display: none;
+}
+#kategorija22{
+    position: absolute;
+    display: none;
+}
+#kategorija33{
+    position: absolute;
+    display: none;
+}
+#kategorija44{
+    position: absolute;
+    display: none;
+}
 
+#kategorija55{
+    position: absolute;
+    display: none;
+}
 
+#kategorija66{
+    position: absolute;
+    display: none;
+}
 
+#kategorija77{
+    position: absolute;
+    display: none;
+}
 
+#kategorija88{
+    position: absolute;
+    display: none;
+}
 
+#kategorija99{
+    position: absolute;
+    display: none;
+}
+#kategorija111{
+    position: absolute;
+    display: none;
+}
 
+#kategorija122{
+    position: absolute;
+    display: none;
+}
 
+#kategorija133{
+    position: absolute;
+    display: none;
+}
+#kategorija144{
+    position: absolute;
+    display: none;
+}
 
+#kategorija155{
+    position: absolute;
+    display: none;
+}
 
+#kategorija166{
+    position: absolute;
+    display: none;
+}
 
+#kategorija177{
+    position: absolute;
+    display: none;
+}
 
+#kategorija188{
+    position: absolute;
+    display: none;
+}
 
-
-
-
-
-
+#kategorija199{
+    position: absolute;
+    display: none;
+}
+#kategorija200{
+    position: absolute;
+    display: none;
+}
 
 
 #search {
@@ -393,21 +463,14 @@ body::before {
     font-weight: bolder;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 800px;
-    margin-left: 100px;
-}
-#hotelswin{
-    position: absolute;
-    width: 100%;
-    height: 700px;
-    background-color: white;
-    border-radius: 30px;
+    margin-top: 730px;
+    margin-left: 550px;
 }
 #hotelsponude{
     position: absolute;
     width: 100%;
     height: 703px;
-    margin-top: 881px;
+    margin-top: 811px;
     left: 0;
     border-radius: 30px;
     overflow-y: auto;
@@ -480,8 +543,8 @@ body::before {
 #hotelphoto1{
     position: absolute;
     width: 100%;
-    height: 700px;
-    margin-top: 880px;
+    height: 705px;
+    margin-top: 810px;
     left: 0;
     z-index: 1;
 }
@@ -492,17 +555,120 @@ body::before {
     position: absolute;
     margin-top: 100000px;
 }
+#openmore{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    display: none;
+}
+.katcontainerphone{
+    position: absolute;
+    display: none;
+}
+#katcontainer{
+    display: block;
+}
+
+
+/*A  g  e  n  c  i  j  e*/
+#agencijetitle{
+    position: absolute;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1520px;
+    margin-left: 330px;
+}
+#agencijewin{
+    position: absolute;
+    width: 100%;
+    height: 703px;
+    margin-top: 1596px;
+    left: 0;
+    border-radius: 30px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid white;
+}
+#agencija1{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    z-index: 2;
+}
+#agencija2{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 450px;
+    z-index: 2;
+}
+#agencija3{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-left: 890px;
+    z-index: 2;
+}
+
+#agencija4{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 620px;
+    margin-left: 20px;
+    z-index: 2;
+}
+#agencija5{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 620px;
+    margin-left: 450px;
+    z-index: 2;
+}
+#agencija6{
+    position: absolute;
+    width: 350px;
+    height: 500px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 620px;
+    margin-left: 890px;
+    z-index: 2;
+}
+#agencijaphoto1{
+    position: absolute;
+    width: 100%;
+    height: 705px;
+    margin-top: 1595px;
+    left: 0;
+    z-index: 1;
+}
+#agencijaphoto2{
+   display: none;
+}
 
 
 
 
 
-
-
-
-
-
-@media (max-width: 768px) and (max-width: 1024px) {
+@media (max-width: 768px) {
     body {
         position: relative;
         background: url('hand.jpg') no-repeat center center/cover;
@@ -517,7 +683,7 @@ body::before {
     #hotelsponude{
         position: absolute;
         width: 100%;
-        height: 703px;
+        height: 543px;
         margin-top: 756px;
         left: 0;
         border-radius: 30px;
@@ -529,7 +695,7 @@ body::before {
         position: absolute;
         width: 100%;
         height: 700px;
-        margin-top: 705px;
+        margin-top: 670px;
         left: 0;
         z-index: 1;
         display: block;
@@ -560,106 +726,6 @@ body::before {
 }
 #searchbtn:hover{
     transform: scale(1.1);
-}
-}
-#kategorija1{
-    font-size: 15px;
-    margin-top: 150px;
-    margin-left: 95px;
-}
-#kategorija2{
-    font-size: 15px;
-    margin-top: 170px;
-    margin-left: 95px;
-}
-#kategorija3{
-    font-size: 15px;
-    margin-top: 190px;
-    margin-left: 95px;
-}
-#kategorija4{
-    font-size: 15px;
-    margin-top: 210px;
-    margin-left: 95px;
-}
-#kategorija5{
-    font-size: 15px;
-    margin-top: 230px;
-    margin-left: 95px;
-}
-#kategorija6{
-    font-size: 15px;
-    margin-top: 250px;
-    margin-left: 95px;
-}
-#kategorija7{
-    font-size: 15px;
-    margin-top: 270px;
-    margin-left: 95px;
-}
-#kategorija8{
-    font-size: 15px;
-    margin-top: 290px;
-    margin-left: 95px;
-}
-#kategorija9{
-    font-size: 15px;
-    margin-top: 310px;
-    margin-left: 95px;
-}
-#kategorija11{
-    font-size: 15px;
-    margin-top: 330px;
-    margin-left: 95px;
-}
-#kategorija12{
-    font-size: 15px;
-    margin-top: 350px;
-    margin-left: 95px;
-}
-#kategorija12{
-    font-size: 15px;;
-    margin-top: 350px;
-    margin-left: 95px;
-}
-#kategorija13{
-    font-size: 15px;
-    margin-top: 370px;
-    margin-left: 95px;
-}
-#kategorija14{
-    font-size: 15px;
-    margin-top: 390px;
-    margin-left: 95px;
-}
-#kategorija15{
-    font-size: 15px;
-    margin-top: 410px;
-    margin-left: 95px;
-}
-#kategorija16{
-    font-size: 15px;
-    margin-top: 430px;
-    margin-left: 95px;
-}
-#kategorija17{font-size: 15px;
-    margin-top: 450px;
-    margin-left: 95px;
-}
-#kategorija18{
-    font-size: 15px;
-    margin-top: 470px;
-    margin-left: 95px;
-}
-#kategorija19{
-    font-size: 15px;
-    margin-top: 490px;
-    margin-left: 95px;
-}
-#kategorija20{
-    font-size: 15px;
-    margin-top: 510px;
-    margin-left: 95px;
 }
 #hotel1{
     position: absolute;
@@ -728,7 +794,387 @@ body::before {
     font-weight: bolder;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 700px;
-    margin-left: 10px;
+    margin-top: 660px;
+    margin-left: 5px;
     z-index: 3;
+}
+#openmore{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    display: block;
+    z-index: 100;
+}
+#kategorija123 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija123:hover {
+    transform: scale(1.1);
+}
+#kategorija22 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 70px;
+    margin-left: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija22:hover {
+    transform: scale(1.1);
+}
+#kategorija33 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 90px;
+    margin-left: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija33:hover {
+    transform: scale(1.1);
+}
+#kategorija44 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 110px;
+    margin-left: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija44:hover {
+    transform: scale(1.1);
+}
+#kategorija55 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 130px;
+    margin-left: 87px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija55:hover {
+    transform: scale(1.1);
+}
+#kategorija66 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 150px;
+    margin-left: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija66:hover {
+    transform: scale(1.1);
+}
+#kategorija77 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 170px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija77:hover {
+    transform: scale(1.1);
+}
+#kategorija88 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 190px;
+    margin-left: 115px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija88:hover {
+    transform: scale(1.1);
+}
+#kategorija99 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 210px;
+    margin-left: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija99:hover {
+    transform: scale(1.1);
+}
+#kategorija111 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 230px;
+    margin-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija111:hover {
+    transform: scale(1.1);
+}
+#kategorija122 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 250px;
+    margin-left: 67px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija122:hover {
+    transform: scale(1.1);
+}
+#kategorija133 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 270px;
+    margin-left: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija133:hover {
+    transform: scale(1.1);
+}
+#kategorija144 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 290px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija144:hover {
+    transform: scale(1.1);
+}
+#kategorija155 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 310px;
+    margin-left: 97px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija155:hover {
+    transform: scale(1.1);
+}
+#kategorija166 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 330px;
+    margin-left: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija166:hover {
+    transform: scale(1.1);
+}
+#kategorija177 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 350px;
+    margin-left: 75px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija177:hover {
+    transform: scale(1.1);
+}
+#kategorija188 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 370px;
+    margin-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija188:hover {
+    transform: scale(1.1);
+}
+#kategorija199 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 390px;
+    margin-left: 105px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija199:hover {
+    transform: scale(1.1);
+}
+#kategorija200 {
+    position: absolute;
+    display: block;
+    font-size: 15px;
+    margin-top: 410px;
+    margin-left: 105px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+#kategorija200:hover {
+    transform: scale(1.1);
+}
+#katcontainerphone{
+    position: absolute;
+    display: block;
+}
+#katcontainer{
+    position: absolute;
+    display: none;
+}
+#kategorija1,
+#kategorija2,
+#kategorija3,
+#kategorija4,
+#kategorija5,
+#kategorija6,
+#kategorija7,
+#kategorija8,
+#kategorija9,
+#kategorija10,
+#kategorija11,
+#kategorija12,
+#kategorija13,
+#kategorija14,
+#kategorija15,
+#kategorija16,
+#kategorija17,
+#kategorija18,
+#kategorija19,
+#kategorija20 {
+    display: none;
+}
+#katcontainerphone{
+    position: fixed;
+    width: 250px;
+    height: 450px;
+    background-color: white;
+    display: block;
+    border-radius: 0px 30px 30px 30px;
+    z-index: 1;
+    margin-top: 45px;
+    margin-left: 45px;
+    display: none;
+    opacity: 0.5;
+    z-index: 100;
+}
+
+/*A  g  e  n  c  i  j  e*/
+
+#agencijetitle{
+    position: absolute;
+    font-size: 40px;
+    font-weight: bolder;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1365px;
+    margin-left: 5px;
+    z-index: 3;
+}
+#agencijewin{
+    position: absolute;
+    width: 100%;
+    height: 703px;
+    margin-top: 1360px;
+    left: 0;
+    border-radius: 30px;
+    overflow-y: auto;
+    background-color: white;
+    border: 1px solid white;
+}
+#agencijaphoto1{
+   display: none;
+}
+#agencijaphoto2{
+  display: block;
+}
+#agencijaphoto2{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    margin-top: 1370px;
+    left: 0;
+    z-index: 1;
+    display: block;
+}
+#agencija1{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 120px;
+    margin-left: 35px;
+    z-index: 2;
+}
+#agencija2{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 600px;
+    margin-left: 35px;
+    z-index: 2;
+}
+#agencija3{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 1080px;
+    margin-left: 35px;
+    z-index: 2;
+}
+
+#agencija4{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 1560px;
+    margin-left: 35px;
+    z-index: 2;
+}
+#agencija5{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 2040px;
+    margin-left: 35px;
+    z-index: 2;
+}
+#agencija6{
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    background-color: rgb(46, 44, 44);
+    border-radius: 30px;
+    margin-top: 2520px;
+    margin-left: 35px;
+    z-index: 2;
+}
 }

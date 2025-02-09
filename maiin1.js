@@ -1,23 +1,28 @@
-document.addEventListener("DOMContentLoaded", function () {
-    // Skrolanje do sekcije hotela kad se klikne na kategoriju "Hoteli"
-    document.getElementById("kategorija7").addEventListener("click", function () {
-        document.getElementById("hotelswin").scrollIntoView({ behavior: "smooth" });
-    });
+document.getElementById("openmore").addEventListener("click", function() {
+    let div = document.getElementById("katcontainerphone");
+    if (div.style.display === "none") {
+        div.style.display = "block";
+    } else {
+        div.style.display = "none";
+    }
+});
 
-    // Funkcija za pretragu hotela
-    document.getElementById("searchbtn").addEventListener("click", function () {
-        let searchQuery = document.getElementById("search").value.toLowerCase();
-        let hotelsWin = document.getElementById("hotelswin");
-        hotelsWin.scrollIntoView({ behavior: "smooth" }); // Prvo skrolujemo do sekcije hotela
-        
-        setTimeout(() => { // Dodajemo mali delay da prvo stigne do sekcije hotela
-            let hotels = document.querySelectorAll("#hotelswin div label");
-            for (let hotel of hotels) {
-                if (hotel.textContent.toLowerCase().includes(searchQuery)) {
-                    hotel.scrollIntoView({ behavior: "smooth", block: "center" });
-                    break;
-                }
-            }
-        }, 500);
-    });
+
+
+document.querySelectorAll('#kategorija123, #kategorija1').forEach(el => {
+    el.addEventListener('click', () => document.querySelector('#agencijetitle').scrollIntoView({ behavior: 'smooth' }));
+});
+
+document.querySelectorAll('#kategorija7, #kategorija77').forEach(el => {
+    el.addEventListener('click', () => document.querySelector('#hotels').scrollIntoView({ behavior: 'smooth' }));
+});
+
+document.querySelector('#searchbtn').addEventListener('click', () => {
+    const searchValue = document.querySelector('#search').value.toLowerCase();
+
+    if (searchValue === 'hoteli') {
+        document.querySelector('#hotels').scrollIntoView({ behavior: 'smooth' });
+    } else if (['turističke agencije', 'turisticke agencije', 'turističke agencije', 'Turističke agencije'].includes(searchValue)) {
+        document.querySelector('#agencijetitle').scrollIntoView({ behavior: 'smooth' });
+    }
 });
