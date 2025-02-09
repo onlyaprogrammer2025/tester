@@ -663,6 +663,35 @@ body::before {
 #agencijaphoto2{
    display: none;
 }
+#titleimage1{
+    position: fixed;
+    width: 70px;
+    height: 70px; 
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 5px;
+    z-index: 10000000000;
+    display: block;
+}
+#title1{
+    position: fixed;
+    color: white;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 80px;
+    margin-top: 20px;
+    z-index: 10000000000;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -713,13 +742,13 @@ body::before {
     outline: none;
     font-size: 25px;
     margin-left: 75px;
-    margin-top: 70px;
+    margin-top: 300px;
 }
 #searchbtn{
     position: absolute;
     width: 28px;
     height: 28px;
-    margin-top: 80px;
+    margin-top: 310px;
     margin-left: 225px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
@@ -1176,5 +1205,17 @@ body::before {
     margin-top: 2520px;
     margin-left: 35px;
     z-index: 2;
+}
+#titleimage1{
+    display: none;
+}
+#title1{
+    position: fixed;
+    color: white;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+    margin-top: 190px;
+    z-index: 10000000000;
 }
 }
